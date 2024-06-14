@@ -44,10 +44,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e00de91bcb75cb49a372b3ebb481fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: 0
-  board: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  Player: 1
+  board: 000000000000000000000000000000000000000000000000000000000000000000000000
   winner: -1
-  aI: 0
+  aI: 1
+  smartAI: 0
+  playerOneWins: 0
+  playerTwoWins: 0
+  stalemates: 0
+  winningArray: ffffffffffffffffffffffff
+  resultColor:
+    serializedVersion: 2
+    rgba: 4278190266
   buttons:
   - {fileID: 0}
   - {fileID: 0}
@@ -58,3 +66,31 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  miniButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  resultLines:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  startMenu: {fileID: 0}
+  resulttMenu: {fileID: 0}
+  playerToggleText: {fileID: 0}
+  aILevelButton: {fileID: 0}
+  aILevelText: {fileID: 0}
+  playerOneWinText: {fileID: 0}
+  playerTwoWinText: {fileID: 0}
+  stalemateText: {fileID: 0}
+  resultHeaderText: {fileID: 0}
