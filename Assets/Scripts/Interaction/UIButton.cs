@@ -20,6 +20,9 @@ public class UIButton : MonoBehaviour
     //Will return out if square has been selected before, if not, will set the correct X or O and will update GameManager
     public void PlayerClick()
     {
+
+        SoundManager.instance.PlaySound("click");
+        
         if(clicked)
             return;
 

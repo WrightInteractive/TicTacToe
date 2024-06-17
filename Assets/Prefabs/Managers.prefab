@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8361633166479737550}
   - component: {fileID: 2250974510908865736}
+  - component: {fileID: 4206392375148080167}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -94,3 +95,21 @@ MonoBehaviour:
   playerTwoWinText: {fileID: 0}
   stalemateText: {fileID: 0}
   resultHeaderText: {fileID: 0}
+--- !u!114 &4206392375148080167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2381099021127088889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ffc3bf16a7d0e4483ab24c0e349dd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioParent: {fileID: 0}
+  sounds:
+  - name: click
+    audioClip: {fileID: 8300000, guid: 9f5c7f89a2600374ea18846e46eaf381, type: 3}
+    volume: 1
+    pitch: 1
